@@ -1,0 +1,7 @@
+name = "Bean Lang"
+grammar = "beanlang"
+path_suffixes = ["bl"]
+brackets = [
+	{ start = "(", end = ")", close = true, newline = false },
+	{ start = "{", end = "}", close = true, newline = true }
+]
